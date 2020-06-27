@@ -198,13 +198,30 @@ input[type=submit]:active {
 /* ------------------------------------------------------------ */
 .section-coming-soon {
   text-align: center;
+  height: 100vh;
 }
 
 .section-coming-soon div {
-  padding-top: 60px;
+  margin-bottom: 60px;
 }
 
+.section-coming-soon div:last-child {
+    margin-bottom: 0;
+}
 
+.copyright-box {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    padding: 10px 0 10px 0;
+    font-size: 60%;
+}
+
+.copyright-box p {
+    color: #888;
+    text-align: center;
+}
 
 /* ------------------------------------------------------------ */
 /* Footer */
